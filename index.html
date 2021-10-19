@@ -1,0 +1,7 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+let socket = io();
+let room_name = "room name I want to create and subscribe";
+
+  socket.emit('join_room', room_name);
+</script>
