@@ -9,7 +9,7 @@ number is then sent back to the original sender. The same rules are applied unti
 
 # Getting Started
 
-Click link to view diagram of my architecture [url]()
+Click link to view diagram of my architecture [url](https://drive.google.com/file/d/1CYnRePgPGNs7e06GAKeb6-QHn70GzfxA/view?usp=sharing)
 
 To obtain a copy of this app download or clone the repository at this [url](https://github.com/AbonyiXavier/Game-Of-Three)
 
