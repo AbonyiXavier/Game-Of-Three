@@ -57,18 +57,18 @@ io.on("connection", async (socket) => {
   if (Number(numberOfPlayers) > 2) {
     socket.emit("kickout");
     socket.disconnect(true);
-    console.log(`Player ${player} with ${socket.id} logged out`);
+    console.log(`Player ${player} with ID: ${socket.id} logged out`);
     return;
   }
 
   numberOfPlayers += 1;
 
   socket.emit("player", player);
-  console.log(`Player ${numberOfPlayers} with ${socket.id} connected`);
+  console.log(`Player ${numberOfPlayers} with ID: ${socket.id} connected`);
 
   // Disconnect player
   socket.on("disconnect", () => {
-    console.log(`Player ${player} with ${socket.id} disconnected`);
+    console.log(`Player ${player} with ID: ${socket.id} disconnected`);
   });
 
   if (player === 1) {
@@ -109,3 +109,5 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`listening on http://localhost:${port}`);
 });
+
+
