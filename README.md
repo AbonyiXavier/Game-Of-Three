@@ -30,6 +30,11 @@ You must have
 - In a browser address bar navigate to 'http://localhost:3000'
 
 
+## Image of output on terminal
+
+Image showing the output on terminal
+
+![GameOfThree](https://user-images.githubusercontent.com/49367987/137990596-2b0826bc-1b0a-43ee-a390-0e601a6f0095.png)
 
 
 
