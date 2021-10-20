@@ -9,7 +9,6 @@ function getGameRandomNumber() {
   }
 
   let currentValue = getGameRandomNumber();
-//   let currentValue = 56;
   console.log("start", currentValue);  
 
   function gameOfThree(currentValue) {

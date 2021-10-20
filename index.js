@@ -13,35 +13,6 @@ const getGameRandomNumber = async () => {
   return randomNumber;
 };
 
-// app.get("/playgame", async (req, res) => {
-//   try {
-//     let currentValue = await getGameRandomNumber();
-//     console.log("start", currentValue);
-
-//     const gameOfThree = async (currentValue) => {
-//       let allowedNums = [1, -1, 0];
-//       for (const num of allowedNums) {
-//         console.log(num);
-//         if ((Number(currentValue) + num) % 3 === 0) {
-//           currentValue = (Number(currentValue) + num) / 3;
-//           break;
-//         }
-//       }
-//       console.log("yea", currentValue);
-
-//       if (currentValue === 1) {
-//         console.log("WIN!!");
-//         return res.send("WIN!");
-//       } else {
-//           await gameOfThree(currentValue);
-//       }
-//     };
-
-//     await gameOfThree(currentValue);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// });
 
 let numberOfPlayers = 0;
 
