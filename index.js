@@ -17,7 +17,6 @@ const getGameRandomNumber = async () => {
 let numberOfPlayers = 0;
 
 io.on("connection", async (socket) => {
-//   console.log("players", Number(numberOfPlayers));
 
   let player = Number(numberOfPlayers);
 
@@ -48,7 +47,6 @@ io.on("connection", async (socket) => {
       const gameOfThree = async (playerRandomNumber) => {
         let allowedNums = [1, -1, 0];
         for (const num of allowedNums) {
-          console.log(num);
           if ((Number(playerRandomNumber) + num) % 3 === 0) {
             playerRandomNumber = (Number(playerRandomNumber) + num) / 3;
             break;
